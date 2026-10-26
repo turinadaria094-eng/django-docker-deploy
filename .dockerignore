@@ -1,0 +1,9 @@
+.git
+.gitignore
+.env
+.venv
+__pycache__/
+*.pyc
+mysite/db.sqlite3
+mysite/staticfiles/
+README.md

@@ -1,0 +1,18 @@
+# секреты
+.env
+*.pem
+timeweb-server
+id_*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Django
+db.sqlite3
+mysite/staticfiles/
+
+# IDE
+.idea/
+.vscode/

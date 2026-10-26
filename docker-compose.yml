@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    image: mysite:latest
+    container_name: mysite
+    restart: always
+    ports:
+      - "80:8000"
+    env_file:
+      - .env
+    volumes:
+      - app_data:/data
+
+volumes:
+  app_data:
